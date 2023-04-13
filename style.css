@@ -5,3 +5,8 @@
 #price-field {
     height: 2rem;
 }
+
+.table th, .table td {
+    white-space: nowrap;
+    text-align: center;
+}
