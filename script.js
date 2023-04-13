@@ -3,7 +3,7 @@ const discountJunior = 0.20; // 20%
 const discountSenior = 0.40; // 40%
 
 const btnGetPrice = document.getElementById("btn-calculate-price");
-const btnReset = document.getElementById("btn-reset");
+const btnClean = document.getElementById("btn-clean");
 const fieldTicketOwnerName = document.getElementById("output-ticket-owner-name");
 const fieldTicketPrice = document.getElementById("output-ticket-price");
 
@@ -22,7 +22,7 @@ btnGetPrice.addEventListener("click", function (event) {
     }
 });
 
-btnReset.addEventListener("click", function (event) {
+btnClean.addEventListener("click", function (event) {
     event.preventDefault();
     cleanInputOutput();
 });
