@@ -18,7 +18,7 @@ btnGetPrice.addEventListener("click", function (event) {
         fieldTicketOwnerName.innerText = inputName;
     }
     else {
-        alert("Fill all the fields to get ticket")
+        alert("Fill all the fields to get ticket, or check if input values are correct")
     }
 });
 
