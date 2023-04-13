@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+			content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Train Ticket</title>
+
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js" defer></script>
+
+</head>
+<body class="d-flex justify-content-center align-items-center flex-column"
+		style="height: 100vh;
+				width: 100vw;
+				background-color: #282c34;"
+>
+
+	<div class="p-3 rounded ms-container">
+		<form class="row g-3">
+			<!--    row    -->
+			<div class="col-4 text-center">
+				<label for="input-name" class="form-label">Nome Cognome</label>
+				<input type="text" class="form-control" id="input-name" placeholder="Enter your name"
+						required>
+			</div>
+
+			<div class="col-4 text-center">
+				<label for="input-travel-distance" class="form-label">Your travel distance</label>
+				<input type="text" class="form-control" id="input-travel-distance" placeholder="Enter your travel distance"
+						required>
+			</div>
+
+			<div class="col-4 text-center">
+				<label for="input-age-range" class="form-label">Select age</label>
+				<select class="form-select" id="input-age-range" aria-label="Default select example">
+					<option selected>Select..</option>
+					<option value="1">Junior (0 - 18)</option>
+					<option value="2">Adult (19 - 65)</option>
+					<option value="3">Senior (65 +)</option>
+				</select>
+			</div>
+
+			<!--    row    -->
+			<div class="col-6 d-flex">
+				<button class="ms-auto btn btn-success" id="btn-calculate-price">Calculate price</button>
+			</div>
+
+			<div class="col-6 d-flex ">
+				<button class="btn btn-warning" id="btn-cancel">Cancel</button>
+			</div>
+		</form>
+	</div>
+
+	<div class="mt-3 p-3 rounded ms-user-ticket">
+
+
+	</div>
+
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+			integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+			crossorigin="anonymous"></script>
+</body>
+</html>

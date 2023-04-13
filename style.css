@@ -1,0 +1,7 @@
+.ms-container, .ms-user-ticket {
+    background-color: lightgray;
+}
+
+#price-field {
+    height: 2rem;
+}
